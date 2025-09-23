@@ -9,8 +9,6 @@ int main() {
   char codigocarta [50];
   char nomecidade [50];
   char pontoturistico [50];
-  char carta1[50];
-  char carta2[50];
   int população ;
   double pib , area;
   
@@ -70,8 +68,8 @@ int main() {
   printf("Estado: %s \n",estado);
   printf("nome da cidade: %s \n",nomecidade);
   printf("população: %d \n",população);
-  printf("PIB: %.2f \n",pib);
-  printf("Area: %.2f \n",area);
+  printf("PIB: %.2d \n",pib);
+  printf("Area: %.2d \n",area);
   printf("Ponto turístico: %s \n",pontoturistico);
 
   printf("carta 2 \n");
@@ -79,8 +77,8 @@ int main() {
   printf("Estado: %s \n",estado);
   printf("nome da cidade: %s \n",nomecidade);
   printf("população: %d \n",população);
-  printf("PIB: %.2f \n",pib);
-  printf("Area: %.2f \n",area);
+  printf("PIB: %.2d \n",pib);
+  printf("Area: %.2d km \n",area);
   printf("Ponto turístico: %s \n",pontoturistico);
   
   
